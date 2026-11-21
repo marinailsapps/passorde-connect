@@ -1,0 +1,7 @@
+{
+    "data": [
+        {"articleid": 1001, "reference": "REF-001", "designation": "Article exemple 1"},
+        {"articleid": 1002, "reference": "REF-002", "designation": "Article exemple 2"}
+    ],
+    "meta": {"current_page": 1, "last_page": 2, "total": 3}
+}

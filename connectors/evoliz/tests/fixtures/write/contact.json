@@ -1,0 +1,12 @@
+{
+    "contactid": 801,
+    "userid": 91,
+    "client": {"clientid": 601, "code": "EXEMPLETES", "name": "Exemple Test"},
+    "lastname": "Exemple",
+    "firstname": "Camille",
+    "email": "camille@exemple.org",
+    "enabled": true,
+    "consent": "without",
+    "favorite": true,
+    "custom_fields": []
+}

@@ -1,0 +1,11 @@
+{
+    "reference": "ART-3001",
+    "nature": "product",
+    "designation": "Fournitures &amp; matériel &lt;lot&gt;",
+    "sale_classificationid": 41,
+    "unit_price": 12.5,
+    "vat_rate": 5.5,
+    "ttc": false,
+    "stock_management": true,
+    "stocked_quantity": 7
+}

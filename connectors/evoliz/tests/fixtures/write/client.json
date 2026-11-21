@@ -1,0 +1,23 @@
+{
+    "clientid": 601,
+    "userid": 91,
+    "code": "EXEMPLETES",
+    "name": "Exemple Test",
+    "type": "Professionnel",
+    "vat_number": "NC",
+    "bank_information": {"bank_name": "Banque Fictive", "bank_account_detail": "0000000000", "iban": "FR00 0000 0000 0000", "bank_identification_code": "FICTFRPP"},
+    "address": {
+        "addr": "1 chemin de l'Exemple",
+        "addr2": "Bâtiment B",
+        "addr3": null,
+        "postcode": "00100",
+        "town": "EXEMPLEVILLE",
+        "country": {"label": "France", "iso2": "FR"},
+        "business_number": null
+    },
+    "phone": "00 00 00 00 01",
+    "mobile": "00 00 00 00 02",
+    "term": null,
+    "enabled": true,
+    "custom_fields": []
+}

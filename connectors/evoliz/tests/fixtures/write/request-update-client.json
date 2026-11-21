@@ -1,0 +1,12 @@
+{
+    "name": "Exemple Test Bis",
+    "address": {
+        "addr": "2 chemin de l'Exemple",
+        "addr2": null,
+        "addr3": null,
+        "postcode": "00200",
+        "iso2": "FR"
+    },
+    "phone": "00 00 00 00 03",
+    "mobile": null
+}

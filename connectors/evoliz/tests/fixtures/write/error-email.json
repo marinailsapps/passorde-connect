@@ -1,0 +1,6 @@
+{
+    "error": "Bad Request Error",
+    "message": {
+        "email": ["The email address must be a valid email address."]
+    }
+}

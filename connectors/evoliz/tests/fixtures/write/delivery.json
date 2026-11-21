@@ -1,0 +1,21 @@
+{
+    "deliveryid": 9001,
+    "document_number": "BL-9001",
+    "userid": 91,
+    "client": {"clientid": 601, "code": "EXEMPLETES", "name": "Exemple Test"},
+    "total": {"vat_exclude": 25, "vat": 1.38, "vat_include": 26.38, "total_quantity": 3},
+    "status_code": 2,
+    "status": "create",
+    "status_dates": {"create": "2026-06-15T10:00:00.000000Z", "invoice": null},
+    "documentdate": "2026-06-20",
+    "term": {"recovery_indemnity": true, "paytype": null, "payterm": {"paytermid": 7, "label": "30 jours"}, "bank": {"bankid": 5, "label": "Banque par défaut", "iban": "FR00 0000 0000 0000", "bic": "FICTFRPP"}},
+    "comment": "Commande CMD-2026-001",
+    "comment_clean": "Commande CMD-2026-001",
+    "external_document_number": "CMD-2026-001",
+    "enabled": true,
+    "webdoc": "https://evoliz.test/modules/webdoc/fictional",
+    "items": [
+        {"itemid": 1, "articleid": 3001, "reference": "ART-3001", "designation": "Fournitures", "quantity": 2, "type": "article", "unit_price_vat_exclude": 12.5, "vat": 5.5, "total": {"vat_exclude": 25}},
+        {"itemid": 2, "articleid": 3001, "reference": "ART-3001", "designation": "Fournitures / offert", "quantity": 1, "type": "article", "unit_price_vat_exclude": 0, "vat": 5.5, "total": {"vat_exclude": 0}}
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "data": [
+        {"vatid": 1, "rate": 20, "label": "TVA 20 %"}
+    ],
+    "meta": {"current_page": 1, "last_page": 4, "total": 4}
+}

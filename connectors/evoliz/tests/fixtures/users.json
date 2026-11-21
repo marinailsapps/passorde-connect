@@ -1,0 +1,6 @@
+{
+    "data": [
+        {"userid": 91, "firstname": "Morgan", "lastname": "Exemple", "email": "Morgan@Exemple.org"}
+    ],
+    "meta": {"current_page": 1, "last_page": 1, "total": 1}
+}

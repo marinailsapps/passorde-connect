@@ -1,0 +1,9 @@
+{
+    "reference": "PORT",
+    "nature": "service",
+    "designation": "Frais de port",
+    "unit_price": 8,
+    "vat_rate": 20,
+    "ttc": false,
+    "stock_management": false
+}

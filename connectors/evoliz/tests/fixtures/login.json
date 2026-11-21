@@ -1,0 +1,5 @@
+{
+    "access_token": "fictional-access-token",
+    "expires_at": "2026-06-15T10:20:00+00:00",
+    "scopes": ["*"]
+}

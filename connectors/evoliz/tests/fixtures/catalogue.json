@@ -1,0 +1,30 @@
+{
+    "data": [
+        {
+            "articleid": 2001,
+            "reference": "CAT-001",
+            "designation": "<p>Caf&eacute;&nbsp;moulu&nbsp;&amp; torr&eacute;fi&eacute;</p><p>Sachet 250&nbsp;g</p>",
+            "designation_clean": "Caf&eacute;&nbsp;moulu&nbsp;&amp; torr&eacute;fi&eacute;Sachet 250&nbsp;g",
+            "unit_price_vat_exclude": 12.5,
+            "vat": 5.5,
+            "sale_classification": {"id": 31, "code": "707"},
+            "supplier": {"name": "Fournisseur &Eacute;toile"},
+            "stock_management": true,
+            "stocked_quantity": -3.25,
+            "enabled": true
+        },
+        {
+            "articleid": 2002,
+            "reference": "CAT-002",
+            "designation": "Prestation libre",
+            "unit_price_vat_exclude": "80",
+            "vat": 20,
+            "sale_classification": null,
+            "supplier": null,
+            "stock_management": false,
+            "stocked_quantity": null,
+            "enabled": false
+        }
+    ],
+    "meta": {"current_page": 1, "last_page": 1, "total": 2}
+}

@@ -1,0 +1,47 @@
+{
+    "data": [
+        {
+            "deliveryid": 8001,
+            "document_number": "BL-8001",
+            "external_document_number": "CMD-77",
+            "client": {"clientid": 501, "name": "Soci&eacute;t&eacute; Exemple"},
+            "userid": 91,
+            "status_code": 2,
+            "status": "create",
+            "status_dates": {"create": "2026-06-12", "invoice": null},
+            "documentdate": "2026-06-12",
+            "total": {"vat_exclude": 130, "vat": 7.15, "vat_include": 137.15, "total_quantity": 11},
+            "comment": "<p>Livraison&nbsp;matin</p>",
+            "comment_clean": "Livraison&nbsp;matin",
+            "items": [
+                {"articleid": 2001, "reference": "CAT-001", "designation": "Caf&eacute;&nbsp;moulu", "designation_clean": "Caf&eacute;&nbsp;moulu", "quantity": 10, "unit_price_vat_exclude": 13, "vat": 5.5, "total": {"vat_exclude": 130}},
+                {"reference": null, "designation": "<b>Geste commercial</b>", "quantity": 1, "unit_price_vat_exclude": 0, "total": {"vat_exclude": 0}}
+            ]
+        },
+        {
+            "deliveryid": 8002,
+            "document_number": "BL-8002",
+            "client": {"clientid": 502, "name": "Autre Exemple"},
+            "status_code": 20,
+            "status": "invoice",
+            "status_dates": {"invoice": "2026-06-14"},
+            "documentdate": "2026-06-14",
+            "total": {"vat_exclude": 80, "vat": 16, "vat_include": 96, "total_quantity": 1},
+            "items": [
+                {"articleid": 2002, "reference": "CAT-002", "designation": "Prestation libre", "quantity": 1, "unit_price_vat_exclude": 80, "vat": 20, "total": {"vat_exclude": 80}}
+            ]
+        },
+        {
+            "deliveryid": 8003,
+            "document_number": "BL-8003",
+            "client": {"clientid": 502, "name": "Autre Exemple"},
+            "status_code": 2,
+            "status": "create",
+            "status_dates": {"invoice": "2026-06-15"},
+            "documentdate": "2026-07-10",
+            "total": {"vat_exclude": 0, "vat": 0, "vat_include": 0, "total_quantity": 0},
+            "items": []
+        }
+    ],
+    "meta": {"current_page": 1, "last_page": 1, "total": 3}
+}

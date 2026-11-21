@@ -1,0 +1,15 @@
+{
+    "type": "Professionnel",
+    "name": "Exemple Test",
+    "code": "EXEMPLETES",
+    "vat_number": "NC",
+    "address": {
+        "addr": "1 chemin de l'Exemple",
+        "addr2": "Bâtiment B",
+        "postcode": "00100",
+        "town": "EXEMPLEVILLE",
+        "iso2": "FR"
+    },
+    "phone": "00 00 00 00 01",
+    "mobile": "00 00 00 00 02"
+}

@@ -1,0 +1,94 @@
+{
+    "kid": "test-vectors",
+    "public_key": "a8irvHxLLEnxPmlIjGG8T6YDtensQJM3NOJol8txjDk=",
+    "vectors": [
+        {
+            "description": "3-month plan, non-ASCII company, slash in the email, fields in no particular order",
+            "payload": {
+                "version_max": "1.x",
+                "email": "ventes/achats@exemple.org",
+                "siret": "00000000000000",
+                "company": "Atelier Hélène & Frères — Val-d'Exempleville 🎈",
+                "plan": "3m",
+                "product": "passorde-connect",
+                "connectors": [
+                    "evoliz"
+                ],
+                "licence_id": "lic_vector_0001",
+                "licence_token": "token-vector-0001",
+                "issued_at": "2026-11-01",
+                "expires_at": "2027-02-01",
+                "kid": "test-vectors",
+                "sites": 1
+            },
+            "canonical": "{\"company\":\"Atelier Hélène & Frères — Val-d'Exempleville 🎈\",\"connectors\":[\"evoliz\"],\"email\":\"ventes/achats@exemple.org\",\"expires_at\":\"2027-02-01\",\"issued_at\":\"2026-11-01\",\"kid\":\"test-vectors\",\"licence_id\":\"lic_vector_0001\",\"licence_token\":\"token-vector-0001\",\"plan\":\"3m\",\"product\":\"passorde-connect\",\"siret\":\"00000000000000\",\"sites\":1,\"version_max\":\"1.x\"}",
+            "canonical_base64": "eyJjb21wYW55IjoiQXRlbGllciBIw6lsw6huZSAmIEZyw6hyZXMg4oCUIFZhbC1kJ0V4ZW1wbGV2aWxsZSDwn46IIiwiY29ubmVjdG9ycyI6WyJldm9saXoiXSwiZW1haWwiOiJ2ZW50ZXMvYWNoYXRzQGV4ZW1wbGUub3JnIiwiZXhwaXJlc19hdCI6IjIwMjctMDItMDEiLCJpc3N1ZWRfYXQiOiIyMDI2LTExLTAxIiwia2lkIjoidGVzdC12ZWN0b3JzIiwibGljZW5jZV9pZCI6ImxpY192ZWN0b3JfMDAwMSIsImxpY2VuY2VfdG9rZW4iOiJ0b2tlbi12ZWN0b3ItMDAwMSIsInBsYW4iOiIzbSIsInByb2R1Y3QiOiJwYXNzb3JkZS1jb25uZWN0Iiwic2lyZXQiOiIwMDAwMDAwMDAwMDAwMCIsInNpdGVzIjoxLCJ2ZXJzaW9uX21heCI6IjEueCJ9",
+            "signature": "xl8DfDD9jbIfJRSHgXlPzI3DEFUi2ewrS2sHfPXz95Bi+/5Q4alDK1kdOqcQiE4qw66zrOCfxRqc3h3jQ0APAA==",
+            "key": "pck1.eyJjb21wYW55IjoiQXRlbGllciBIw6lsw6huZSAmIEZyw6hyZXMg4oCUIFZhbC1kJ0V4ZW1wbGV2aWxsZSDwn46IIiwiY29ubmVjdG9ycyI6WyJldm9saXoiXSwiZW1haWwiOiJ2ZW50ZXMvYWNoYXRzQGV4ZW1wbGUub3JnIiwiZXhwaXJlc19hdCI6IjIwMjctMDItMDEiLCJpc3N1ZWRfYXQiOiIyMDI2LTExLTAxIiwia2lkIjoidGVzdC12ZWN0b3JzIiwibGljZW5jZV9pZCI6ImxpY192ZWN0b3JfMDAwMSIsImxpY2VuY2VfdG9rZW4iOiJ0b2tlbi12ZWN0b3ItMDAwMSIsInBsYW4iOiIzbSIsInByb2R1Y3QiOiJwYXNzb3JkZS1jb25uZWN0Iiwic2lnbmF0dXJlIjoieGw4RGZERDlqYklmSlJTSGdYbFB6STNERUZVaTJld3JTMnNIZlBYejk1QmkrLzVRNGFsREsxa2RPcWNRaUU0cXc2NnpyT0NmeFJxYzNoM2pRMEFQQUE9PSIsInNpcmV0IjoiMDAwMDAwMDAwMDAwMDAiLCJzaXRlcyI6MSwidmVyc2lvbl9tYXgiOiIxLngifQ"
+        },
+        {
+            "description": "Lifetime plan, null expires_at, updates_until, null optional fields",
+            "payload": {
+                "kid": "test-vectors",
+                "licence_id": "lic_vector_0002",
+                "licence_token": "token-vector-0002",
+                "product": "passorde-connect",
+                "connectors": [
+                    "evoliz",
+                    "future-connector"
+                ],
+                "plan": "lifetime",
+                "email": "contact@exemple.org",
+                "company": null,
+                "siret": null,
+                "issued_at": "2026-11-01",
+                "expires_at": null,
+                "updates_until": "2027-11-01",
+                "version_max": "1.4",
+                "sites": 3
+            },
+            "canonical": "{\"company\":null,\"connectors\":[\"evoliz\",\"future-connector\"],\"email\":\"contact@exemple.org\",\"expires_at\":null,\"issued_at\":\"2026-11-01\",\"kid\":\"test-vectors\",\"licence_id\":\"lic_vector_0002\",\"licence_token\":\"token-vector-0002\",\"plan\":\"lifetime\",\"product\":\"passorde-connect\",\"siret\":null,\"sites\":3,\"updates_until\":\"2027-11-01\",\"version_max\":\"1.4\"}",
+            "canonical_base64": "eyJjb21wYW55IjpudWxsLCJjb25uZWN0b3JzIjpbImV2b2xpeiIsImZ1dHVyZS1jb25uZWN0b3IiXSwiZW1haWwiOiJjb250YWN0QGV4ZW1wbGUub3JnIiwiZXhwaXJlc19hdCI6bnVsbCwiaXNzdWVkX2F0IjoiMjAyNi0xMS0wMSIsImtpZCI6InRlc3QtdmVjdG9ycyIsImxpY2VuY2VfaWQiOiJsaWNfdmVjdG9yXzAwMDIiLCJsaWNlbmNlX3Rva2VuIjoidG9rZW4tdmVjdG9yLTAwMDIiLCJwbGFuIjoibGlmZXRpbWUiLCJwcm9kdWN0IjoicGFzc29yZGUtY29ubmVjdCIsInNpcmV0IjpudWxsLCJzaXRlcyI6MywidXBkYXRlc191bnRpbCI6IjIwMjctMTEtMDEiLCJ2ZXJzaW9uX21heCI6IjEuNCJ9",
+            "signature": "KkxLEtMMN1E+Opu95E4yMRnATt6l31b5dr4YqOy3GMHHr6ATKVBW44lA3jlARgBRmmnGRXm7umGdE64uSanKBA==",
+            "key": "pck1.eyJjb21wYW55IjpudWxsLCJjb25uZWN0b3JzIjpbImV2b2xpeiIsImZ1dHVyZS1jb25uZWN0b3IiXSwiZW1haWwiOiJjb250YWN0QGV4ZW1wbGUub3JnIiwiZXhwaXJlc19hdCI6bnVsbCwiaXNzdWVkX2F0IjoiMjAyNi0xMS0wMSIsImtpZCI6InRlc3QtdmVjdG9ycyIsImxpY2VuY2VfaWQiOiJsaWNfdmVjdG9yXzAwMDIiLCJsaWNlbmNlX3Rva2VuIjoidG9rZW4tdmVjdG9yLTAwMDIiLCJwbGFuIjoibGlmZXRpbWUiLCJwcm9kdWN0IjoicGFzc29yZGUtY29ubmVjdCIsInNpZ25hdHVyZSI6IktreExFdE1NTjFFK09wdTk1RTR5TVJuQVR0NmwzMWI1ZHI0WXFPeTNHTUhIcjZBVEtWQlc0NGxBM2psQVJnQlJtbW5HUlhtN3VtR2RFNjR1U2FuS0JBPT0iLCJzaXJldCI6bnVsbCwic2l0ZXMiOjMsInVwZGF0ZXNfdW50aWwiOiIyMDI3LTExLTAxIiwidmVyc2lvbl9tYXgiOiIxLjQifQ"
+        },
+        {
+            "description": "Unknown extra fields, signed too: nested objects sorted recursively, empty object and array kept apart, key order by code point",
+            "payload": {
+                "kid": "test-vectors",
+                "licence_id": "lic_vector_0003",
+                "licence_token": "token-vector-0003",
+                "product": "passorde-connect",
+                "connectors": [
+                    "evoliz"
+                ],
+                "plan": "12m",
+                "email": "contact@exemple.org",
+                "company": "Exemple SARL",
+                "siret": "00000000000000",
+                "issued_at": "2026-11-01",
+                "expires_at": "2027-11-01",
+                "version_max": "1.x",
+                "sites": [
+                    "a.exemple.org",
+                    "b.exemple.org"
+                ],
+                "zz_extra": {
+                    "z": 1,
+                    "é": "accent",
+                    "a": {
+                        "y": [],
+                        "x": {}
+                    },
+                    "B": true,
+                    "🎈": "ballon",
+                    "�": "remplacement"
+                }
+            },
+            "canonical": "{\"company\":\"Exemple SARL\",\"connectors\":[\"evoliz\"],\"email\":\"contact@exemple.org\",\"expires_at\":\"2027-11-01\",\"issued_at\":\"2026-11-01\",\"kid\":\"test-vectors\",\"licence_id\":\"lic_vector_0003\",\"licence_token\":\"token-vector-0003\",\"plan\":\"12m\",\"product\":\"passorde-connect\",\"siret\":\"00000000000000\",\"sites\":[\"a.exemple.org\",\"b.exemple.org\"],\"version_max\":\"1.x\",\"zz_extra\":{\"B\":true,\"a\":{\"x\":{},\"y\":[]},\"z\":1,\"é\":\"accent\",\"�\":\"remplacement\",\"🎈\":\"ballon\"}}",
+            "canonical_base64": "eyJjb21wYW55IjoiRXhlbXBsZSBTQVJMIiwiY29ubmVjdG9ycyI6WyJldm9saXoiXSwiZW1haWwiOiJjb250YWN0QGV4ZW1wbGUub3JnIiwiZXhwaXJlc19hdCI6IjIwMjctMTEtMDEiLCJpc3N1ZWRfYXQiOiIyMDI2LTExLTAxIiwia2lkIjoidGVzdC12ZWN0b3JzIiwibGljZW5jZV9pZCI6ImxpY192ZWN0b3JfMDAwMyIsImxpY2VuY2VfdG9rZW4iOiJ0b2tlbi12ZWN0b3ItMDAwMyIsInBsYW4iOiIxMm0iLCJwcm9kdWN0IjoicGFzc29yZGUtY29ubmVjdCIsInNpcmV0IjoiMDAwMDAwMDAwMDAwMDAiLCJzaXRlcyI6WyJhLmV4ZW1wbGUub3JnIiwiYi5leGVtcGxlLm9yZyJdLCJ2ZXJzaW9uX21heCI6IjEueCIsInp6X2V4dHJhIjp7IkIiOnRydWUsImEiOnsieCI6e30sInkiOltdfSwieiI6MSwiw6kiOiJhY2NlbnQiLCLvv70iOiJyZW1wbGFjZW1lbnQiLCLwn46IIjoiYmFsbG9uIn19",
+            "signature": "2UjK/fQbjpiPo9MfZp2ATEi3YaHRxTI8NA8zMqygXtuJmj5GteiUcIxkYejlB2rRRYQ+Bo5wK/DGBpVOQWELAg==",
+            "key": "pck1.eyJjb21wYW55IjoiRXhlbXBsZSBTQVJMIiwiY29ubmVjdG9ycyI6WyJldm9saXoiXSwiZW1haWwiOiJjb250YWN0QGV4ZW1wbGUub3JnIiwiZXhwaXJlc19hdCI6IjIwMjctMTEtMDEiLCJpc3N1ZWRfYXQiOiIyMDI2LTExLTAxIiwia2lkIjoidGVzdC12ZWN0b3JzIiwibGljZW5jZV9pZCI6ImxpY192ZWN0b3JfMDAwMyIsImxpY2VuY2VfdG9rZW4iOiJ0b2tlbi12ZWN0b3ItMDAwMyIsInBsYW4iOiIxMm0iLCJwcm9kdWN0IjoicGFzc29yZGUtY29ubmVjdCIsInNpZ25hdHVyZSI6IjJVaksvZlFianBpUG85TWZacDJBVEVpM1lhSFJ4VEk4TkE4ek1xeWdYdHVKbWo1R3RlaVVjSXhrWWVqbEIyclJSWVErQm81d0svREdCcFZPUVdFTEFnPT0iLCJzaXJldCI6IjAwMDAwMDAwMDAwMDAwIiwic2l0ZXMiOlsiYS5leGVtcGxlLm9yZyIsImIuZXhlbXBsZS5vcmciXSwidmVyc2lvbl9tYXgiOiIxLngiLCJ6el9leHRyYSI6eyJCIjp0cnVlLCJhIjp7IngiOnt9LCJ5IjpbXX0sInoiOjEsIsOpIjoiYWNjZW50Iiwi77-9IjoicmVtcGxhY2VtZW50Iiwi8J-OiCI6ImJhbGxvbiJ9fQ"
+        }
+    ]
+}

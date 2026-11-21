@@ -1,0 +1,6 @@
+{
+    "message": {
+        "name": ["The name field is required."],
+        "address.postcode": ["The postcode is invalid.", "The postcode is too short."]
+    }
+}

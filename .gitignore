@@ -1,0 +1,35 @@
+# Dependencies and tool caches
+/vendor/
+/composer.lock
+/.phpunit.cache/
+/.phpunit.result.cache
+/.pint.cache
+/build/
+/coverage/
+
+# Environment files
+.env*
+!.env.example
+
+# Key material: nothing private is ever stored in this repository
+*.pem
+*.key
+*.p12
+*.pfx
+*.der
+*.sec
+*.secret
+*private*key*
+*secret*key*
+id_rsa*
+id_ed25519*
+
+# Licence files issued to a customer
+licence.json
+licence.previous.json
+licence.meta.json
+
+# Local system files
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,18 @@
+{
+    "articleid": 3001,
+    "userid": 91,
+    "reference": "ART-3001",
+    "reference_clean": "ART-3001",
+    "nature": "product",
+    "sale_classification": {"id": 41, "code": "707", "label": "Ventes"},
+    "designation": "Fournitures &amp; matériel&nbsp;/ LOT 12",
+    "designation_clean": "Fournitures &amp; matériel&nbsp;/ LOT 12",
+    "quantity": 0,
+    "unit_price_vat_exclude": 12.5,
+    "vat": 5.5,
+    "ttc": false,
+    "stock_management": true,
+    "stocked_quantity": 7,
+    "enabled": true,
+    "custom_fields": []
+}

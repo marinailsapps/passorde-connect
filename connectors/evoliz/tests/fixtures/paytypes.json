@@ -1,0 +1,7 @@
+{
+    "data": [
+        {"paytypeid": 1, "label": "Virement"},
+        {"paytypeid": 2, "label": "Ch&egrave;que"}
+    ],
+    "meta": {"current_page": 1, "last_page": 1, "total": 2}
+}

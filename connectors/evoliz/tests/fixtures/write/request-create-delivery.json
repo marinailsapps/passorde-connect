@@ -1,0 +1,14 @@
+{
+    "documentdate": "2026-06-20",
+    "clientid": 601,
+    "external_document_number": "CMD-2026-001",
+    "business_process": "goods",
+    "term": {"paytermid": 7, "paytypeid": 2, "recovery_indemnity": true},
+    "comment": "Commande CMD-2026-001",
+    "items": [
+        {"type": "article", "articleid": 3001, "quantity": 2, "unit_price": 12.5},
+        {"type": "article", "articleid": 3001, "quantity": 1, "unit_price": 0, "designation": "Fournitures &amp; matériel&nbsp;/ LOT 12 / offert"},
+        {"type": "article", "articleid": 3002, "quantity": 1.5, "unit_price": 8, "designation": "Frais de port<br />\nLivrer avant 10 h &amp; sonner<br />\nau portail"},
+        {"type": "article", "articleid": 3003, "quantity": 4}
+    ]
+}

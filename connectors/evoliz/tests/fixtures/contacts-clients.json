@@ -1,0 +1,10 @@
+{
+    "data": [
+        {"contactid": 701, "client": {"clientid": 501}, "firstname": "Alex", "lastname": "Premier", "email": "alex@exemple.org", "favorite": false, "enabled": true},
+        {"contactid": 702, "client": {"clientid": 501}, "firstname": "Camille", "lastname": "Favori", "email": " Camille.Favori@Exemple.ORG ", "favorite": true, "enabled": true},
+        {"contactid": 703, "client": {"clientid": 501}, "firstname": "Dominique", "lastname": "Second", "email": "dominique@exemple.org", "favorite": true, "enabled": true},
+        {"contactid": 704, "client": {"clientid": 502}, "firstname": "Eden", "lastname": "Inactif", "email": "eden@exemple.org", "favorite": true, "enabled": false},
+        {"contactid": 705, "client": {"clientid": 502}, "firstname": "Sacha", "lastname": "Actif", "email": "pas-une-adresse", "favorite": false, "enabled": true}
+    ],
+    "meta": {"current_page": 1, "last_page": 1, "total": 5}
+}

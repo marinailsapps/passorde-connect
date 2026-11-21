@@ -1,0 +1,26 @@
+includes:
+  - vendor/larastan/larastan/extension.neon
+
+parameters:
+  level: 8
+  phpVersion: 80300
+  paths:
+    - src
+    - testing
+    - config
+    - database
+    - routes
+    - connectors/evoliz/src
+    - connectors/evoliz/config
+    - connectors/evoliz/database
+    - connectors/evoliz/mock
+  ignoreErrors:
+    # Larastan looks for the application's config folder; this one is the package's.
+    - identifier: larastan.noEnvCallsOutsideOfConfig
+      paths:
+        - config/passorde-connect.php
+        - connectors/evoliz/config/evoliz.php
+    # Larastan cannot see package view namespaces.
+    - identifier: argument.type
+      message: '#expects view-string#'
+      path: src/Http/Controllers/LicenceController.php

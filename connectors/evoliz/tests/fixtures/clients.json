@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "clientid": 501,
+            "code": "CLI-501",
+            "name": "Soci&eacute;t&eacute; Exemple",
+            "type": "Professionnel",
+            "address": {"addr": "1 rue de l'Exemple", "addr2": "B&acirc;timent&nbsp;A", "addr3": null, "postcode": "00100", "town": "Exempleville", "iso2": "fr"},
+            "phone": "00 00 00 00 01",
+            "mobile": "",
+            "vat_number": "FR00000000000",
+            "enabled": true
+        },
+        {
+            "clientid": 502,
+            "code": "CLI-502",
+            "name": "Autre Exemple",
+            "address": {"addr": "2 place Fictive", "postcode": "00200", "town": "Fictiveville", "iso2": "FR"},
+            "enabled": true
+        },
+        {
+            "clientid": 503,
+            "code": "CLI-503",
+            "name": "Exemple sans contact",
+            "enabled": false
+        }
+    ],
+    "meta": {"current_page": 1, "last_page": 1, "total": 3}
+}

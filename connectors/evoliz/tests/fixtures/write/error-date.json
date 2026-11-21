@@ -1,0 +1,6 @@
+{
+    "error": "Bad Request Error",
+    "message": {
+        "documentdate": ["The document date cannot be later than the current date + 30 days"]
+    }
+}
